@@ -103,7 +103,7 @@ $(document).on("pagecontainerbeforechange", function (e ,data) {
 $(document).on("pagebeforeshow", "#author-detail", function(){
 	var qs = urlParamsToObj($(this).data('url'));
     var authordetUrl = $("#authordetUrl").render(qs);
-    var authorUrl = 'http://fdbm.com/api/authordet.php?authorid=' + $.mobile.fdbm.authorid + '&userid=' + $.mobile.fdbm.userid;
+    var authorUrl = 'http://www.fictiondb.com/api/authordet.php?authorid=' + $.mobile.fdbm.authorid + '&userid=' + $.mobile.fdbm.userid;
 	
 	$('body').addClass('ui-loading');
 	 
@@ -138,7 +138,7 @@ $(document).on("pagebeforeshow", "#author-detail", function(){
 $(document).on("pagebeforeshow", "#series-detail", function(){
     var qs = urlParamsToObj($(this).data('url'));
     var seriesdetUrl = $("#seriesdetUrl").render(qs);
-	var seriesUrl = 'http://fdbm.com/api/seriesdet.php?seriesid=' + $.mobile.fdbm.seriesid + '&userid=' + $.mobile.fdbm.userid;
+	var seriesUrl = 'http://www.fictiondb.com/api/seriesdet.php?seriesid=' + $.mobile.fdbm.seriesid + '&userid=' + $.mobile.fdbm.userid;
 	
 	$('body').addClass('ui-loading');
 
