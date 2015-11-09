@@ -986,4 +986,4 @@ img.cover {
 		.ui-focus, .ui-btn:focus { 
 			box-shadow: inset 0px 0px 3px #004358, 0px 0px 9px <?php echo $accent_color; ?>!important;
 		}
-.ui-content, #header { margin-top: 20px; }        
+.ui-content, #header { padding-top: 20px; }        
