@@ -98,7 +98,7 @@
     <gap:splash src="res/screen/blackberry/screen-225.png"              gap:platform="blackberry" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
-    <gap:splash src="splash.png" /> 
+ 
     <gap:splash src="Default-568h@2x.png" gap:platform="ios" width="640" height="1136" />
        
 
