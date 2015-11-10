@@ -137,20 +137,21 @@
 <body>
 <div id="header" data-role="header" data-position="fixed" data-theme="c">
 		<div class="header_wrapper">
-			<a style="border-left: none;" class="header_button" href="#left_panel" data-inline="true" data-role="button" data-corners="false" data-theme="c">
-				<img class="header-btn-image" style="width: 100%; height: 100%;" src="img/menu.png" alt="Menu">
-				<span class="menu-btn-background"></span>
-				<span class="counter-header hidden accent-color" style="color: #ffffff;"></span>
-			</a>
+
 			<span class="page_title"><input type="search" name="search" value="" data-mini="true" data-theme="a" class="search-header" placeholder="Author, Title, Series"/></span>
-			<a style="float: right; border: none;" class="header_button" href="#" data-inline="true" data-rel="back" data-role="button" data-corners="false" data-theme="c">
+			<a style="float: left; border: none;" class="header_button" href="#" data-inline="true" data-rel="back" data-role="button" data-corners="false" data-theme="c">
 				<img style="width: 100%; height: 100%;" src="img/back.png" alt="Back">
 				<span class="btn-background"></span>
 			</a>
+			<a style="border-right: none;" class="header_button" href="#right_panel" data-inline="true" data-role="button" data-corners="false" data-theme="c">
+				<img class="header-btn-image" style="width: 100%; height: 100%;" src="img/menu.png" alt="Menu">
+				<span class="menu-btn-background"></span>
+				<span class="counter-header hidden accent-color" style="color: #ffffff;"></span>
+			</a>			
 			<div style="clear: both"></div>
 		</div>
 </div><!-- /header -->
-<div data-role="panel" data-position="left" data-position-fixed="true" data-theme="b" data-display="push" id="left_panel">
+<div data-role="panel" data-position="right" data-position-fixed="true" data-theme="b" data-display="push" id="right_panel">
 	<ul data-role="listview" data-inset="false" data-theme="b">
 		<li><div style="text-align: center;"><img src="img/logo.png" alt="Logo"></div></li>
 		<li><a data-transition="slide" href="index.html"><img src="img/menu-icons/home.png" alt="Home" class="ui-li-icon">Home</a></li>
