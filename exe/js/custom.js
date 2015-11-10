@@ -1,4 +1,10 @@
 jQuery(document).ready(function () {
+	
+	$(document).on("deviceready", function(){
+    if(device.platform === "iOS" && parseInt(device.version) === 9){
+        $.mobile.hashListeningEnabled = false;
+    }
+});
 		jQuery('.ui-page-active .owl-carousel').addClass('owl-active');
 		// Touch Slider START
 		jQuery('.owl-active').owlCarousel({
